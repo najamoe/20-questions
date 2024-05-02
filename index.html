@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20 questions</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="play">
+        <h2>Welcome to 20 questions - the game!</h2>
+        <p><strong>Rules</strong></p>
+        <p>1. Think of an animal.</p>
+        <p>2. Answer the questions with "yes" or "no".</p>
+        <p>3. The computer will try and guess the animal you are thinking of in 20 questions or less!</p>
+        <div id="startContainer"> <!-- New container for the button -->
+            <button id="start" onclick="startGame()">Start</button>
+        </div>
+    </div>
+    
+
+<div id="question" style="display: none;"></div>
+
+<button id="yesBtn" onclick="answerQuestion('ja')" style="display: none;">Ja</button>
+<button id="noBtn" onclick="answerQuestion('nej')" style="display: none;">Nej</button>
+    
+<div id="counter" style="display: none;">Antal gæt: <span id="guessCount">0</span></div>
+<button onclick="restartGame()" style="display: none;">Genstart</button>
+
+<script src="script.js"></script>
+</body>
+</html>
