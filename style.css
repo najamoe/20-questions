@@ -14,31 +14,75 @@ body {
 }
 
 #play {
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
     border: 2px solid black;
     padding: 20px;
     width: 60%;
-    margin: 60px auto; 
+    margin: 60px auto;
+}
+
+#play h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rules {
+    margin-bottom: 20px;
+}
+
+.rules p {
+    margin: 10px 0;
 }
 
 #start {
-    padding: 10px 20px; 
-    background-color: #5c7ec8; 
-    color: white; 
+    padding: 10px 20px;
+    background-color: #5c7ec8;
+    color: white;
     border: none;
-    border-radius: 5px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    margin-top: 20px; 
- 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
 }
 
-#startContainer {
-    text-align: center; 
-    margin-top: 20px; 
+#questionBtns {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#questionBtns button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #5c7ec8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#counter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#restartBtn {
+    padding: 10px 20px;
+    background-color: #5c7ec8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
